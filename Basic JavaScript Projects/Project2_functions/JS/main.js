@@ -5,3 +5,11 @@ function Btn_Function () {
     document.getElementById("para").innerHTML = text1; // modifying the HTML element with an Id para
 
 }
+
+function SecondFunction(sum1, sum2){
+    return sum1 + sum2; 
+}
+
+
+let result = SecondFunction(25, 5);
+document.getElementById("demo").innerHTML = result;
