@@ -1,0 +1,84 @@
+body {
+  background-color: bisque;
+}
+
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(168, 100, 10);
+}
+
+h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(201, 122, 18);
+}
+div {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(201, 122, 18);
+}
+
+#menuBG {
+  width: 650px;
+  height: 470px;
+  margin: 10px auto;
+}
+
+#frmMenu {
+  width: 650px;
+  height: 200px;
+}
+
+#totalPrice {
+  width: 200px;
+  height: 190px;
+  margin: 0 auto;
+  float: right;
+}
+
+.left {
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+.middle {
+  width: 200px;
+  height: 200px;
+  float:left;
+}
+
+.right {
+  width: 200px;
+  height: 200px;
+  float: right;
+}
+
+#showText {
+  width: 200px;
+  height: 190px;
+  margin: 0 auto;
+  float: left;
+}
+
+#cart {
+  top: 0;
+  margin: 0px auto;
+  width: 400px;
+  height: 200px;
+}
+
+#btnOrder {
+  width: 100px;
+  height: 40px;
+  display: block;
+  margin: 25px auto;
+  border-radius: 8px;
+  background-color: rgb(162, 106, 37);
+  border: 1px solid rgb(252, 205, 147);
+  
+}
+
+#btnOrder:hover {
+    background-color: rgb(235, 183, 119);
+    color: rgb(153, 91, 10);
+    cursor: pointer;
+    
+}
